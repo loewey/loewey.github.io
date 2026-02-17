@@ -166,7 +166,7 @@ section.alt-bg {
   height: 180px;
   border-radius: 12px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%;
 }
 
 .photo-placeholder {
