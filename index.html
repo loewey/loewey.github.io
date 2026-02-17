@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Louis French — Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#top" class="nav-name">Louis French</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero / Profile Section -->
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-photo">
+          <div class="photo-placeholder" id="profile-photo">
+            <span>Photo</span>
+          </div>
+          <!-- Replace the div above with: <img src="photo.jpg" alt="Louis French"> -->
+        </div>
+        <div class="hero-info">
+          <h1>Louis French</h1>
+          <p class="hero-title">BSc Computing Science Student</p>
+          <p class="hero-affiliation">University of East Anglia</p>
+
+          <div class="hero-contact">
+            <p><span class="label">Email:</span> <a href="mailto:your.email@uea.ac.uk">your.email@uea.ac.uk</a></p>
+          </div>
+
+          <div class="hero-links">
+            <a href="https://github.com/" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" class="icon-link" title="LinkedIn">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://scholar.google.com/" target="_blank" rel="noopener" class="icon-link" title="Google Scholar">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <div class="section-content">
+          <p>
+            I am a Computing Science student at the <a href="https://www.uea.ac.uk/" target="_blank" rel="noopener">University of East Anglia</a>.
+            My interests span across computer vision, 3D reconstruction, and machine learning.
+          </p>
+          <p>
+            I am currently working on research related to Object-Centric Learning (OCL) for more efficient 3D/4D reconstruction,
+            supervised by <a href="https://genera1z.github.io/" target="_blank" rel="noopener">Rongzhen Zhao</a>
+            and Professor <a href="https://chengwang12.github.io/" target="_blank" rel="noopener">Cheng Wang</a>.
+          </p>
+          <p>
+            I am passionate about building practical systems and exploring how modern deep learning techniques
+            can be applied to real-world problems in computer vision and beyond.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="alt-bg">
+      <div class="container">
+        <h2>News</h2>
+        <div class="section-content">
+          <ul class="news-list">
+            <li>
+              <span class="news-date">[2025/12]</span>
+              Started research collaboration on OCL for efficient 3D/4D reconstruction.
+            </li>
+            <li>
+              <span class="news-date">[2025/09]</span>
+              Began final year of BSc Computing Science at UEA.
+            </li>
+            <!-- Add more news items here -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <div class="container">
+        <h2>Research</h2>
+        <div class="section-content">
+          <div class="research-item">
+            <h3>Object-Centric Learning for 3D/4D Reconstruction</h3>
+            <p>
+              Investigating how Object-Centric Learning can make 3D and 4D reconstruction pipelines more efficient.
+              This work explores the intersection of OCL methods with geometric vision models such as CUT3R,
+              aiming to achieve faster and more accurate scene understanding.
+            </p>
+          </div>
+          <!-- Add more research items here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="alt-bg">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="section-content">
+          <div class="project-grid">
+
+            <div class="project-card">
+              <h3>Project Title</h3>
+              <p>Brief description of the project, what technologies were used, and what was achieved.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Code</a>
+                <a href="#" target="_blank" rel="noopener">Demo</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <h3>Project Title</h3>
+              <p>Brief description of the project, what technologies were used, and what was achieved.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+
+            <!-- Add more project cards here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <div class="container">
+        <h2>Publications</h2>
+        <div class="section-content">
+          <p class="pub-note">': equal contribution; *: corresponding author</p>
+
+          <!-- Uncomment and fill in when you have publications -->
+          <!--
+          <h3 class="pub-year">2026</h3>
+          <ul class="pub-list">
+            <li>
+              <span class="pub-authors">L French, A Coauthor, B Supervisor.</span>
+              <span class="pub-title">Paper Title Here.</span>
+              <span class="pub-venue">Conference/Journal Name, Year.</span>
+              <span class="pub-links">
+                <a href="#">paper</a> / <a href="#">code</a>
+              </span>
+            </li>
+          </ul>
+          -->
+
+          <p>Publications coming soon.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Louis French. Built with plain HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
